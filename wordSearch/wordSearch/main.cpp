@@ -88,7 +88,7 @@ void runQueries(std::ifstream &infile){
 }
 
 int main(){
-    ifstream in("/Users/liunan/workspace/workspace_main/code/wordSearch/wordSearch/test.txt");
+    ifstream in("/Users/liunan/workspace/workspace_main/code/cPlusPlusPrimerProject/wordSearch/wordSearch/test.txt");
     runQueries(in);
     in.close();
     return 0;
